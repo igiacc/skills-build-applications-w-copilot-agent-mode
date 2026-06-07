@@ -80,7 +80,7 @@ jobs:
           case-sensitive: false
 
       - name: Check Mongoose dependency
-        id: check-mongoose
+        id: check-mongoose 
         continue-on-error: true
         uses: skills/action-keyphrase-checker@v2.0.0
         with:
